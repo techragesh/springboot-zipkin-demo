@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: accountservice
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8501/eureka
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
+server:
+  port: 8505
+

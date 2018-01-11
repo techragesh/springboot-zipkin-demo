@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: stockservice
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8501/eureka
+server:
+  port: 8506
+
