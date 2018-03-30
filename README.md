@@ -8,3 +8,5 @@ Zipkin is very efficient tool for distributed tracing in microservices ecosystem
 This is useful during debugging when lots of underlying systems are involved and the application becomes slow in any particular situation. In such case, we first need to identify see which underlying service is actually slow. Once the slow service is identified, we can work to fix that issue. Distributed tracing helps in identifying that slow component among in the ecosystem.
 
 ## Screenshot ##
+
+![zipkin-img-1.png](zipkin-img-1.png)
